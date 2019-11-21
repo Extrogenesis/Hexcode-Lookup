@@ -1,5 +1,10 @@
-let input = document.getElementsByName('input')
+let input = document.getElementById('input')
+let div = document.getElementById('image-container')
 
- input[0].setAttribute('value', '#000')
 
+function check(){
+    let value = input.value
 
+    div.style.backgroundColor  = value
+    console.log('done')
+}
